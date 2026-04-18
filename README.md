@@ -187,5 +187,3 @@ jupyter
 
 **Pavan**
 Data Analyst | Python | SQL | Excel | Power BI
-
-This project is open source and available under the MIT License.
