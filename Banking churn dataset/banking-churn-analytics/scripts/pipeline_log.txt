@@ -1,0 +1,8 @@
+Pipeline run: 2026-04-10 15:54:06.582772
+customers   — raw: 10,200  | clean: 10,000
+accounts    — raw: 15,300  | clean: 15,000
+transactions— raw: 102,000 | clean: 85,127
+interactions— raw: 20,400 | clean: 20,000
+Transformations applied: dedup, text standardise, date parse,
+future-date removal, currency fix, IQR capping, referential integrity,
+null fills (age=median, region=mode), feature engineering (5 new columns)
